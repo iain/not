@@ -1,5 +1,8 @@
 Rakefile
 lib/not.rb
 Manifest
+init.rb
+CHANGELOG.rdoc
 spec/not_spec.rb
+not.gemspec
 README.rdoc
