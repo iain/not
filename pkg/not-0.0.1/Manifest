@@ -1,4 +1,5 @@
 Rakefile
 lib/not.rb
-README.textile
 Manifest
+spec/not_spec.rb
+README.rdoc

@@ -1,9 +1,10 @@
-h1. Not
+= Not
+
 
 This little gem adds a little syntactic sugar to your code. You can append not
 in the middle of your code to improve readability.
 
-h2. Examples
+= Examples
 
   @foo.not.nil?
   @user.not.active?
@@ -11,4 +12,9 @@ h2. Examples
   User.not.new(:name => 'iain') # not sure why you'd want to do this though
   @foo.not.not.not.not.send(:not).not.nil? # sorry, couldn't resist
 
-Copyright (c) 2008 "Iain Hecker":http://iain.nl/, released under the MIT license
+= Installation
+
+  gem sources add http://gems.github.com
+  gem install iain-not
+
+Copyright (c) 2008 Iain Hecker, released under the MIT license

@@ -9,11 +9,11 @@ Gem::Specification.new do |s|
   s.date = %q{2008-12-24}
   s.description = %q{Syntactic sugar for negating any results: @foo.not.nil?}
   s.email = %q{iain@iain.nl}
-  s.extra_rdoc_files = ["lib/not.rb", "README.textile"]
-  s.files = ["Rakefile", "lib/not.rb", "README.textile", "Manifest", "not.gemspec"]
+  s.extra_rdoc_files = ["lib/not.rb", "README.rdoc"]
+  s.files = ["Rakefile", "lib/not.rb", "Manifest", "spec/not_spec.rb", "README.rdoc", "not.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/iain/not}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Not", "--main", "README.textile"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Not", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{not}
   s.rubygems_version = %q{1.3.1}
